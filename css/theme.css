@@ -4651,6 +4651,7 @@ html.boxed .main {
 
 #text-projet{
 	color: white;
+	text-align: center;
 }
 
 .avia_codeblock{
@@ -4693,8 +4694,15 @@ html.boxed .main {
 #chiffres{
 	margin-left: 14em;
 }
-=======
 
+.heading-primary{
+	text-align: center;
+}
 
-/
->>>>>>> parent of be2d6d7... Capiteo V2
+.post-content p{
+	text-align: center;
+}
+
+#Final-button h1{
+	text-align: center;
+}
