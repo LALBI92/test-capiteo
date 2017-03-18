@@ -4665,6 +4665,10 @@ html.boxed .main {
 	background-color:#0088CC;
 }
 
+#carousel{
+	background-color:#0088CC;
+}
+
 
 .video-rotator{
 	background-color: #0088CC;
@@ -4709,4 +4713,9 @@ html.boxed .main {
 
 #timeline-titre{
 	text-align: center;
+}
+
+.photo-price{
+	height: 200px;
+	width: 380px;
 }

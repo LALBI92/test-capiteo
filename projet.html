@@ -127,7 +127,6 @@
 			<div role="main" class="main">
 
 
-
 <!-- Header -->
 
 
@@ -171,7 +170,7 @@
 									data-y="center" data-voffset="-95"
 									data-start="500"
 									style="z-index: 5"
-									data-transform_in="y:[-300%];opacity:0;s:500;">La 1ère solution défiscalisante</div>
+									data-transform_in="y:[-300%];opacity:0;s:500;">La 1ère solution défiscalisante sur</div>
 
 								<div class="tp-caption"
 									data-x="center" data-hoffset="280"
@@ -188,7 +187,7 @@
 									data-transform_in="y:[100%];s:500;"
 									data-transform_out="opacity:0;s:500;"
 									style="z-index: 5"
-									data-mask_in="x:0px;y:0px;">sur l'immobilier parisien en Airbnb</div>
+									data-mask_in="x:0px;y:0px;">l'immobilier parisien en Airbnb</div>
 
 								<div class="tp-caption bottom-label"
 									data-x="center" data-hoffset="0"
@@ -200,7 +199,7 @@
 								<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
 									data-hash
 									data-hash-offset="85"
-									href="#home-intro"
+									href="https://capiteo.mipise.com/fr/projects/explore"
 									data-x="center" data-hoffset="0"
 									data-y="center" data-voffset="80"
 									data-start="2200"
@@ -218,92 +217,81 @@
 
 
 
+<div role="main" class="main">
+
+			<br>
+
 				<div class="container">
 
+					<h2>Nos dernières collectes</h2>
+
+					<ul class="nav nav-pills sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
+						<li data-option-value="*" class="active"><a href="#">Collectes terminées</a></li>
+								<li data-option-value=".websites"><a href="#">Collectes en cours</a></li>
+						
+						
+					</ul>
+
+					<hr>
+
 					<div class="row">
-						<div class="col-md-6">
 
-							<div class="alert alert-success hidden mt-lg" id="contactSuccess">
-								<strong>Success!</strong> Your message has been sent to us.
-							</div>
-
-							<div class="alert alert-danger hidden mt-lg" id="contactError">
-								<strong>Error!</strong> There was an error sending your message.
-								<span class="font-size-xs mt-sm display-block" id="mailErrorMessage"></span>
-							</div>
-
-							<h2 class="mb-sm mt-sm"><strong>Contactez</strong> nous</h2>
-							<form id="contactForm" action="php/contact-form.php" method="POST">
-								<div class="row">
-									<div class="form-group">
-										<div class="col-md-6">
-											<label>Votre nom ou société *</label>
-											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
-										</div>
-										<div class="col-md-6">
-											<label>Votre adresse email *</label>
-											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
-										</div>
+						<div class="sort-destination-loader sort-destination-loader-showing">
+							<ul class="portfolio-list sort-destination" data-sort-id="portfolio">
+								<li class="col-md-4 isotope-item brands">
+									<div class="portfolio-item">
+										<a href="projet1.html">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="img/projet/projet1/1.jpg" class="img-responsive" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Rue de Clichy</span>
+														<span class="thumb-info-type">Paris 17ème</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-search"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
 									</div>
-								</div>
-								<div class="row">
-									<div class="form-group">
-										<div class="col-md-12">
-											<label>Votre demande</label>
-											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="form-group">
-										<div class="col-md-12">
-											<label>Message *</label>
-											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required></textarea>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<input type="submit" value="Envoyer votre Message" class="btn btn-primary btn-lg mb-xlg" data-loading-text="Loading...">
-									</div>
-								</div>
-							</form>
-						</div>
-						<div class="col-md-6">
+								</li>
+								<li class="col-md-4 isotope-item medias">
+									<div class="portfolio-item">
+										<a href="projet2.html">
+											<span class="thumb-info thumb-info-lighten thumb-info-no-zoom">
+												<span class="thumb-info-wrapper">
+													<span class="owl-carousel owl-theme nav-inside m-none" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+														<span>
+															<img src="img/projet/projet1/5.jpg" class="img-responsive" alt="">
+														</span>
+														
+													</span>
 
-							
-
-							<hr>
-
-							<h4 class="heading-primary">Nos <strong>bureaux</strong></h4>
-							<ul class="list list-icons list-icons-style-3 mt-xlg">
-								<li><i class="fa fa-map-marker"></i> <strong>Adresse:</strong> 2 rue Hippolyte Lebas 75009 Paris</li>
-								<li><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-789</li>
-								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">contact@capiteo.com</a></li>
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Rue de Chateaudun</span>
+														<span class="thumb-info-type">Paris 9ème</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-search"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</li>
+								
 							</ul>
-
-							<hr>
-
-							<h4 class="heading-primary">Horaires <strong>d'ouverture</strong></h4>
-							<ul class="list list-icons list-dark mt-xlg">
-								<li><i class="fa fa-clock-o"></i> Lundi - Vendredi - 9h to 18h</li>
-								<li><i class="fa fa-clock-o"></i> Samedi et Dimanche - Fermé</li>
-							</ul>
-
 						</div>
-
 					</div>
 
 				</div>
 
 			</div>
 
-<hr>
-	<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-				<div id="googlemaps" class="google-map"></div>
 
 
-
+<!-- Footer -->
 <footer id="footer">
 				<div class="container">
 					<div class="row">
@@ -385,6 +373,10 @@
 
 
 
+			
+
+
+
 
 
 		<!-- Vendor -->
@@ -420,64 +412,6 @@
 
 		<!-- Simulator -->
 		<script src="js/simulator.js"></script>
-
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCinvMTtXsRclkqsbpxnbG1_DkzYE1MhIk"></script>
-		
-		<script>
-
-			/*
-			Map Settings
-
-				Find the Latitude and Longitude of your address:
-					- http://universimmedia.pagesperso-orange.fr/geo/loc.htm
-					- http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
-
-			*/
-
-			// Map Markers
-			var mapMarkers = [{
-				address: "2 rue Hippolyte Lebas 75009 Paris",
-				html: "<strong>Capiteo</strong>",
-				icon: {
-					image: "img/pin.png",
-					iconsize: [26, 46],
-					iconanchor: [12, 46]
-				},
-				popup: true
-			}];
-
-			// Map Initial Location
-			var initLatitude = 48.877061;
-			var initLongitude = 2.341705;
-;
-
-			// Map Extended Settings
-			var mapSettings = {
-				controls: {
-					draggable: (($.browser.mobile) ? false : true),
-					panControl: true,
-					zoomControl: true,
-					mapTypeControl: true,
-					scaleControl: true,
-					streetViewControl: true,
-					overviewMapControl: true
-				},
-				scrollwheel: false,
-				markers: mapMarkers,
-				latitude: initLatitude,
-				longitude: initLongitude,
-				zoom: 16
-			};
-
-			var map = $('#googlemaps').gMap(mapSettings);
-
-			// Map Center At
-			var mapCenterAt = function(options, e) {
-				e.preventDefault();
-				$('#googlemaps').gMap("centerAt", options);
-			}
-
-			</script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>
