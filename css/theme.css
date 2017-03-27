@@ -4723,3 +4723,7 @@ html.boxed .main {
 .label{
 	font-size: 15px;
 }
+
+.faq-center{
+	text-align: center;
+}
