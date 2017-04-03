@@ -2164,7 +2164,7 @@ aside ul.nav-list > li > a {
 }
 
 .slider-container .tp-opacity-overlay {
-	background: rgba(0, 0, 0, 0.75);
+	background: rgba(0, 0, 0, 0.35);
 }
 
 .slider-container.transparent {
@@ -4726,4 +4726,12 @@ html.boxed .main {
 
 .faq-center{
 	text-align: center;
+}
+
+#header-titre{
+	height: 100px;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top: 5em;
+	opacity: 100;
 }
