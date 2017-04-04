@@ -10,10 +10,10 @@ include('./mailchimp/mailchimp.php');
 use \DrewM\MailChimp\MailChimp;
 
 // Step 1 - Set the apiKey - How get your Mailchimp API KEY - http://kb.mailchimp.com/article/where-can-i-find-my-api-key
-$apiKey 	= '11111111111111111111111111111111-us4';
+$apiKey 	= '44ad5a47caf0adacf440c523ac844b46-us15';
 
 // Step 2 - Set the listId - How to get your Mailchimp LIST ID - http://kb.mailchimp.com/article/how-can-i-find-my-list-id
-$listId 	= '1111111111';
+$listId 	= '5b123e5b24.';
 
 if (isset($_POST['email'])) {
 	$email = $_POST['email'];
