@@ -404,6 +404,8 @@ html #header.header-semi-transparent .header-body:before, html #header.header-se
 	perspective: 1000px;
 }
 
+
+
 html.sticky-header-enabled #header.header-semi-transparent .header-body {
 	position: fixed;
 }
