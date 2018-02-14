@@ -4674,12 +4674,13 @@ html.boxed .main {
 
 .video-rotator{
 	background-color: #0088CC;
+  border-radius: 50px;
 
 }
 .p-rotator{
 	color: white;
-	font-size: 30px;
-	text-align: absolute;
+	font-size: 25px;
+	text-align: center;
 }
 
 #h1word{
@@ -4745,4 +4746,14 @@ html.boxed .main {
 .italique{
   font-size: 12px;
   font-style: italic;
+}
+
+.partner{
+  width: 200px;
+  height: 100px;
+}
+
+#bnb{
+  width: 240px;
+  height: 100px;
 }
