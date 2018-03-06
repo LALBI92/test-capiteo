@@ -5677,7 +5677,7 @@ section.timeline .timeline-title .timeline-title-tags a {
 section.timeline .timeline-box {
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
 	border: 1px solid #E5E5E5;
-	border-radius: 4px;
+	border-radius: 15px;
 	margin: 20px 10px 10px 10px;
 	padding: 10px;
 	position: relative;
@@ -5685,11 +5685,12 @@ section.timeline .timeline-box {
 	float: left;
 	z-index: 1;
 	margin-bottom: 30px;
-	background: #FFF;
+
 }
 
 section.timeline .timeline-box.left {
 	clear: both;
+  background: #1589CA;
 }
 
 section.timeline .timeline-box.left:before {
@@ -5704,6 +5705,7 @@ section.timeline .timeline-box.left:before {
 	right: -6.8%;
 	top: 22px;
 	width: 8px;
+  background: #1589CA;
 }
 
 section.timeline .timeline-box.left:after {
@@ -5712,7 +5714,7 @@ section.timeline .timeline-box.left:after {
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
-	background: #FFF;
+	background: #1589CA;
 	border-right: 1px solid #E5E5E5;
 	border-top: 1px solid #E5E5E5;
 	content: "";
@@ -5730,6 +5732,7 @@ section.timeline .timeline-box.right {
 	float: right;
 	right: -1px;
 	margin-top: 40px;
+  background: #E1625C;
 }
 
 section.timeline .timeline-box.right:before {
@@ -5752,7 +5755,7 @@ section.timeline .timeline-box.right:after {
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
-	background: #FFF;
+	background: #E1625C;
 	border-left: 1px solid #E5E5E5;
 	border-bottom: 1px solid #E5E5E5;
 	content: "";

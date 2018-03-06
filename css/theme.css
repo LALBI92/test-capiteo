@@ -4694,8 +4694,9 @@ html.boxed .main {
 }
 
 #team-photo{
-	height: 180px;
-	margin-top: 8em;
+	height: 300px;
+	margin-top: 6em;
+  border-radius: 35px;
 }
 
 #chiffres{
@@ -4756,4 +4757,14 @@ html.boxed .main {
 #bnb{
   width: 240px;
   height: 100px;
+}
+
+.heading-white{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.p-white{
+  text-align: center;
+  color: #FFFFFF;
 }
