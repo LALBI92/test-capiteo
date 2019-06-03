@@ -93,13 +93,14 @@
                       <nav>
                         <ul class="nav nav-pills" id="mainNav">
                           <li>
-                            <a class="navbar-text" href="index.html">
-                              Accueil
-                            </a>
-                          </li>
-                          <li>
                             <a class="navbar-text" href="contact2.html">
                               Qui sommes-nous ?
+                            </a>
+                          </li>
+
+                          <li>
+                            <a class="navbar-text" href="dédié.html">
+                              Projet dédié
                             </a>
                           </li>
 
@@ -240,7 +241,7 @@
 
 						<p>Capitéo est la seule plateforme spécialisée permettant d’investir dans l’immobilier locatif saisonnier légal (type Airbnb)</p>
 
-            <p>L’investissement est ouvert à partir de 5.000 euros sans emprunt et permet d’obtenir une réduction d’impôt de 25% (loi Madelin IR PME)</p>
+            <p>L’investissement est ouvert à partir de 5.000 euros sans emprunt et permet d’obtenir une réduction d’impôt de 18% (loi Madelin IR PME)</p>
 
             <p>Le rôle de Capitéo est de réunir plusieurs investisseurs au sein d’une même société afin de faire l’acquisition d’un bien immobilier de qualité dans Paris intra muros.</p>
 
@@ -394,7 +395,7 @@
                 </a>
               </div>
               <div class="col-md-7">
-                <p>© Copyright 2017. Tout droit réservé.</p>
+                <p>© Copyright 2019. Tout droit réservé.</p>
               </div>
               <div class="col-md-4">
                 <nav id="sub-menu">
@@ -449,75 +450,9 @@
 		<!-- Simulator -->
 		<script src="js/simulator.js"></script>
 
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCinvMTtXsRclkqsbpxnbG1_DkzYE1MhIk"></script>
 
-		<script>
 
-			/*
-			Map Settings
 
-				Find the Latitude and Longitude of your address:
-					- http://universimmedia.pagesperso-orange.fr/geo/loc.htm
-					- http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
-
-			*/
-
-			// Map Markers
-			var mapMarkers = [{
-				address: "2 rue Hippolyte Lebas 75009 Paris",
-				html: "<strong>Capiteo</strong>",
-				icon: {
-					image: "img/pin.png",
-					iconsize: [26, 46],
-					iconanchor: [12, 46]
-				},
-				popup: true
-			}];
-
-			// Map Initial Location
-			var initLatitude = 48.877061;
-			var initLongitude = 2.341705;
-;
-
-			// Map Extended Settings
-			var mapSettings = {
-				controls: {
-					draggable: (($.browser.mobile) ? false : true),
-					panControl: true,
-					zoomControl: true,
-					mapTypeControl: true,
-					scaleControl: true,
-					streetViewControl: true,
-					overviewMapControl: true
-				},
-				scrollwheel: false,
-				markers: mapMarkers,
-				latitude: initLatitude,
-				longitude: initLongitude,
-				zoom: 16
-			};
-
-			var map = $('#googlemaps').gMap(mapSettings);
-
-			// Map Center At
-			var mapCenterAt = function(options, e) {
-				e.preventDefault();
-				$('#googlemaps').gMap("centerAt", options);
-			}
-
-			</script>
-
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-12345678-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		 -->
 
 	</body>
 </html>
